@@ -137,23 +137,23 @@
 
 //  task5
 // Дан массив книг. Вам нужно добавить в него еще одну книгу, не изменяя существующий массив (в результате операции должен быть создан новый массив).
-// const books = [{
-// 	name: 'Harry Potter',
-// 	author: 'J.K. Rowling'
-//  }, {
-// 	name: 'Lord of the rings',
-// 	author: 'J.R.R. Tolkien'
-//  }, {
-// 	name: 'The witcher',
-// 	author: 'Andrzej Sapkowski'
-//  }];
+const books = [{
+	name: 'Harry Potter',
+	author: 'J.K. Rowling'
+ }, {
+	name: 'Lord of the rings',
+	author: 'J.R.R. Tolkien'
+ }, {
+	name: 'The witcher',
+	author: 'Andrzej Sapkowski'
+ }];
  
-//  const bookToAdd = {
-// 	name: 'Game of thrones',
-// 	author: 'George R. R. Martin'
-//  }
-// books.push(bookToAdd);
-// console.log(books);
+ const bookToAdd = {
+	name: 'Game of thrones',
+	author: 'George R. R. Martin'
+ }
+ var newBooks = books.concat(bookToAdd);
+console.log(newBooks);
 
 // task6
 // Дан обьект employee. Добавьте в него свойства age и salary, не изменяя изначальный объект (должен быть создан новый объект, который будет включать все необходимые свойства). Выведите новосозданный объект в консоль.
@@ -172,9 +172,9 @@
 
 // task7
 // Дополните код так, чтоб он был рабочим
-const array = ['value', () => 'showValue'];
-const [value, showValue] = array
+// const array = ['value', () => 'showValue'];
+// const [value, showValue] = array
 
 
-alert(value); // должно быть выведено 'value'
-alert(showValue());  // должно быть выведено 'showValue'
+// alert(value); // должно быть выведено 'value'
+// alert(showValue());  // должно быть выведено 'showValue'
